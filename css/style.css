@@ -3,32 +3,55 @@ body {
 	background-image: url("image.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
-	opacity: 0.1;
+	/*opacity: 0.1;*/
 }
 
 #password_div {
 	opacity: 0.9;
 	width: 100%;
-	height: 400px;
+	height: 100%;
 }
 
 #pass_text {
 	clear: both;
+	font-size: 30px;
+	color: #212F3D;
+	padding-left: 70px;
 	text-align: center;
 	margin: auto;
 	opacity: 0.9;
 }
 
-#input_pass {
+#input_and_btn {
 	clear: both;
-	margin: auto;
-	opacity: 1;
+}
+
+#input_pass {
+	width: 350px;
+	height: 30px;margin-top: 25px;
+	font-size: 20px;
+	color: #566573;
+	padding: 2px 5px;
+	border-radius: 3px;
+	margin-left: calc(50% - 175px - 60px);
+	margin-right: 5px;
+}
+
+#input_pass:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
 }
 
 #BTN_check_pass {
+	text-align: center;
+	line-height: 15px;
 	margin: auto;
 	opacity: 1;
-	width: 70px;
-	height: 20px;
-	border-radius: 3px;
+	width: 120px;
+	height: 33px;
+	font-size: 21px;
+	border-radius: 5px;
+	background-color: #EAECEE;
+	color: ##2C3E50;
+	cursor:pointer;
 }
