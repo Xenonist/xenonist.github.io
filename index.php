@@ -6,7 +6,7 @@
 	<link rel = "stylesheet" href = "css.css">
 </head>
 <body>
-<?php echo "1" ?>
+<?php echo "1"; ?>
 	<div>
 		<ul>
 			<li>1</li>
