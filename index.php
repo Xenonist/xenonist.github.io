@@ -2,9 +2,11 @@
 <html>
 <head>
 	<meta charset = "UTF-8">
-	<title>stam</title>
+	<title>С ДР</title>
+	<link rel = "stylesheet" href = "css.css">
 </head>
 <body>
+<?php echo "1" ?>
 	<div>
 		<ul>
 			<li>1</li>
