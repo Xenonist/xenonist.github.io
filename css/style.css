@@ -1,5 +1,8 @@
 body {
-	background-color: red;
+	background-image: url("image.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	opacity: .5;
 }
 input {
 	width: 300px;
