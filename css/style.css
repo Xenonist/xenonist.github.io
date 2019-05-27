@@ -8,17 +8,19 @@ body {
 
 #password_div {
 	opacity: 0.9;
+	width: 100%;
+	height: 400px;
 }
 
 #pass_text {
-	float: left;
+	clear: both;
 	text-align: center;
 	margin: auto;
 	opacity: 0.9;
 }
 
 #input_pass {
-	float: left;
+	clear: both;
 	margin: auto;
 	opacity: 1;
 }
