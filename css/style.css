@@ -1,6 +1,32 @@
 body {
+	background-color: white;
 	background-image: url("image.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	opacity: 0.1;
+}
+
+#password_div {
+	opacity: 0.9;
+}
+
+#pass_text {
+	float: left;
+	text-align: center;
+	margin: auto;
+	opacity: 0.9;
+}
+
+#input_pass {
+	float: left;
+	margin: auto;
+	opacity: 1;
+}
+
+#BTN_check_pass {
+	margin: auto;
+	opacity: 1;
+	width: 70px;
+	height: 20px;
+	border-radius: 3px;
 }

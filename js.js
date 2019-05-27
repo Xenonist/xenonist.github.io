@@ -1,1 +1,1 @@
-alert('check');
+console.log('done');
