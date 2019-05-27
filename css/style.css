@@ -2,5 +2,5 @@ body {
 	background-image: url("image.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
-	opacity: .5;
+	opacity: 0.1;
 }
