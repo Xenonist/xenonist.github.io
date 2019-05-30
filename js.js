@@ -8,7 +8,7 @@ function CheckPassword () {
 		case "семя Сени":
 		case "Семя сени":
 		case "Семя Сени":
-			window.location.replace("http:yashanig.ga/anime.html");
+			window.location.replace("http://yashanig.ga/anime.html");
 			break;
 		default:
 			alert("Мммм, не, думай ещё");
