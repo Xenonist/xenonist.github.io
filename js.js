@@ -1,5 +1,4 @@
 function CheckPassword () {
-	var pass_in = getElementById('input_pass').value;
 	switch (pass_in) {
 		case "семясени":
 		case "СемяСени":
@@ -28,6 +27,7 @@ function KeyReader (e) {
 	}
 }
 
+var pass_in = getElementById('input_pass').value;
 var tryes = 0;
 var mistakes_number = 0;
 var BTN = document.getElementById('BTN_check_pass');
