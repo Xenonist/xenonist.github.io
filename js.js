@@ -29,8 +29,7 @@ function KeyReader (e) {
 }
 
 var pass_in = document.getElementById('input_pass');
-var tryes = 0;
-var mistakes_number = 0;
+var tryes = 1;
 var BTN = document.getElementById('BTN_check_pass');
 
 window.addEventListener("keydown", KeyReader);

@@ -23,8 +23,10 @@ body {
 	opacity: 0.3;
 }
 
-.title {
+.titles {
 	font-size: 23px;
+	display: block;
+	color: #09223A;
 }
 
 span {
