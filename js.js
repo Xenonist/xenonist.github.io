@@ -1,5 +1,25 @@
 function CheckPassword () {
-
+	var pass_in = getElementById('input_pass').value;
+	switch (pass_in) {
+		case "семясени":
+		case "СемяСени":
+		case "СЕМЯСЕНИ":
+		case "семя сени":
+		case "семя Сени":
+		case "Семя сени":
+		case "Семя Сени":
+			window.location.replace("http:yashanig.ga/anime.html");
+			break;
+		default:
+			alert("Мммм, не, думай ещё");
+			if (tryes == 3) {
+				alert("Возможно, это два слова)))");
+			}
+			if (tryes == 6) {
+				alert("Так, тугодум. Попробуй написать эти два слова в одно, с маленькой буквы и без пробелов. (хотя я все варики учёл (наверное))");
+			}
+			tryes++;
+	}
 }
 
 function KeyReader (e) {
@@ -8,6 +28,7 @@ function KeyReader (e) {
 	}
 }
 
+var tryes = 0;
 var mistakes_number = 0;
 var BTN = document.getElementById('BTN_check_pass');
 
